@@ -1,0 +1,123 @@
+body {
+    background-color: #ffae00;
+    color: #535151;
+    font-family: Arial, sans-serif, Helvetica;
+}
+header {
+    background-color: #ffb81e;
+    color: #c50f0f;
+    background-image: url(Small-Yellow-Polkadot.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 350%;
+    text-indent: 1em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#gradient {
+    background-image: linear-gradient(to bottom, #ff0000, #ff891b);
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    float: right;
+    padding: 1em;
+    font-weight: bold;
+    width: 164px;
+    font-size: 110%;
+    background-repeat: no-repeat;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:link {
+    color: #FFFFFF;
+}
+nav a:visited {
+    color: #004db1;
+}
+nav a:hover {
+    color: #ffe600;
+}
+main {
+    background-color: #ffdc7c;
+    margin-right: 200px;
+    padding: 10px 10px 10px 10px;
+    clear: left;
+}
+#flash {
+    float: left;
+    width: 880px;
+    height: 250px;
+}
+#wrapper {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(252, 199, 101);
+    min-width: 1080px;
+    max-width: 2048px;
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom, #ff0000, #ff891b);
+}
+footer {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffdc7c;
+    margin-right: 200px;
+}
+table {
+    border-color: #850b0b;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 1em;
+    border-color: #850b0b;
+    border: 2px solid;
+}
+td {
+    text-align: left;
+}
+.text {
+    text-align: center;
+}
+tr:nth-of-type(odd) {
+    background-color: #ff9012bd;
+}
+tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+h1 {
+    color: #c50f0f;
+}
+h2 {
+    color: #be0707;
+    text-shadow: 1px 1px #024ec0
+}
+h3 {
+    font-weight: bold;
+}
+form {
+    height: 250px;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 160px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+}
+input {
+    display: block;
+    margin-bottom: 15px;
+}
+textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    margin-left: 220px;
+}
